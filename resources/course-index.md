@@ -13,3 +13,7 @@ Welcome! This document will be updated as class progresses with the latest and g
 * Slides: https://www.icloud.com/keynote/000GKxZg3FeBc7HtSDGbIxGNw#JS-class01
 * Homework: [Boom](https://gist.github.com/bobbytables/3bf4f9de6d9f843add7a710032cf9821)
 * Video: [Class Video](https://youtu.be/l_Onh-SZ_mk)
+
+## Class 02
+
+* Slides: https://www.icloud.com/keynote/000E1L0VE549URbvaaY5VOlmw#JS-class03
