@@ -32,12 +32,19 @@
  			'drunk and passed out!');
  		console.log('\n');
 
- 	}	else {
+ 	}	else if (i === 1) {
 
  		console.log(i + ' bottle of beer on the wall, ' + i + ' bottle of beer.');
  		console.log('Take one down, pass it around, ' + (i - 1) + ' bottles of ' + 
  			'beer on the wall...');
  		console.log('\n');
+
+ 	}	else {
+
+		console.log(i + ' bottles of beer on the wall, ' + i + ' bottles of beer.');
+ 		console.log('Take one down, pass it around, ' + (i - 1) + ' bottles of ' + 
+ 			'beer on the wall...');
+ 		console.log('\n'); 		
 
  	}	// end if-else if-else
 
