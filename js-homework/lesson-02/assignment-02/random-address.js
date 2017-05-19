@@ -23,27 +23,79 @@
 
  // MY SOLUTION:
 
- // NOTE REGARDING BONUS:
- //
- // Not sure if my solution to the bonus is technically cheating. I was unable
- // to think of another solution but simply including elements within the array
- // that also had apartment numbers. However, including such elements within
- // the array might be interpreted as violating DRY principles.
- //
- // Nonetheless, the solution does work.
+ // NOTE: I am indebted to Mozilla documentation on setting a range for random
+//		 number generation. I adapted my function from samples found at this
+//		 article URL:
+
+//		 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/
+// 			Global_Objects/Math/random
+
+function numGenerator(min, max)	{
+
+	var min = Math.ceil(min);		// The minimum number for street number
+	var max = Math.floor(max);		// The maximum number for street number
+
+	// Randomly generate a number between min and max, with a multiplier equal 
+	// to the maximum - minimum value + 1 (with zero indexing, equal to
+	// max - 1), then inclusive of the maximum value by virtue of adding the 
+	// minimum number to the calculation.
+
+	return Math.floor( Math.random() * (max - min + 1) ) + min;
+
+}	// end numGenerator(min, max)
 
 var addresses = [
- 	'72 East 4th Streeet #5C, New York, NY 10003',
-	'634 East Michelle Street, West Covina, CA 91790', 		
-	'568 North Bronson Avenue, Los Angeles, CA 90004',
- 	'6823 Matilija Avenue, Los Angeles, CA 91405',
- 	'336 West 95th Street, New York, NY 10025',
- 	'21 East 3rd Street #2C, New York, NY 10003',
- 	'515 East 12th Street, New York, NY 10009',
- 	'205 East 4th Street #7, New York, NY 10009', 				 
- 	'10 East 21st Street, New York, NY 10010'
+ 	' East 4th Streeet, New York, NY 10003',
+	' East Michelle Street, West Covina, CA 91790', 		
+	' North Bronson Avenue, Los Angeles, CA 90004',
+ 	' Matilija Avenue, Los Angeles, CA 91405',
+ 	' West 95th Street, New York, NY 10025',
+ 	' East 3rd Street, New York, NY 10003',
+ 	' East 12th Street, New York, NY 10009',
+ 	' East 4th Street, New York, NY 10009', 				 
+ 	' East 21st Street, New York, NY 10010'
 ];
 
- console.log('\nRANDOMLY-GENERATED ADDRESS:\n');
+var addressesWithAptNumbers = [
+ 	' East 4th Streeet #5D, New York, NY 10003',
+	' East Michelle Street #12B, West Covina, CA 91790', 		
+	' North Bronson Avenue #6E, Los Angeles, CA 90004',
+ 	' Matilija Avenue #8G, Los Angeles, CA 91405',
+ 	' West 95th Street #7A, New York, NY 10025',
+ 	' East 3rd Street #5E, New York, NY 10003',
+ 	' East 12th Street #9C, New York, NY 10009',
+ 	' East 4th Street #6D, New York, NY 10009', 				 
+ 	' East 21st Street #6A, New York, NY 10010'
+];
 
- console.log(addresses[Math.floor(Math.random() * 9)] + '\n');
+// NOTE: This solution still at least partly violates DRY principles in that
+//		 some data is duplicated in the second array. Nonetheless, it DOES
+//		 satisfy the overall requirements for the bonus of randomly including
+//		 apartment numbers, so I would call it partially successful. I would
+//		 still like to devise a means of randomly including apartment numbers
+//		 without data duplication, and also making the apartment numbers
+//		 random, as well. The logic for this would be somewhat more complex;
+//		 I will solve this one, time allowing, after completing Assignment 3.
+
+// Generate flag for including or excluding apartment number in address.
+
+var flag = Math.floor(numGenerator(1, 4));
+
+// NOTE: The above range gives roughly a 50/50 chance of an apartment number being included.
+
+// Print header to console:
+
+console.log('\nRANDOMLY-GENERATED ADDRESS:');
+
+if (flag >= 1 && flag < 3)	{
+
+	console.log(numGenerator(1, 1500) +
+	addresses[Math.floor(Math.random() * 9)] + '\n');
+
+}	else	{
+
+	console.log(numGenerator(1, 1500) +
+	addressesWithAptNumbers[Math.floor(Math.random() * 9)] + '\n');
+
+}	// end if-else
+
