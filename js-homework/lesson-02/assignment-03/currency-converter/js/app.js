@@ -1,3 +1,9 @@
+// app.js
+//
+// Robert Hieger
+//
+// May 19, 2017
+
 var btcRate = 380.99;
 
 function convertBTC() {
@@ -6,7 +12,7 @@ function convertBTC() {
 }
 
 function convertToBTC(dollarAmt) {
-  return dollarAmt / btcRate;
+  return (dollarAmt / btcRate);
 }
 
 function valueForEl(id) {

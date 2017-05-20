@@ -59,8 +59,13 @@ body {
 
 /* Center the container */
 #container {
-	width: 960px;
-	margin: auto;
+	width: 95%;
+	margin: 15px auto 0 auto;
+}
+
+input{
+  display: inline-table;
+  margin-bottom: 25px;
 }
 
 #content span {
@@ -94,6 +99,21 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+#convert  {
+  width: 100px;
+  height: 35px;
+  border: solid 2px #696969;  /* DimGray */
+  background: #00bfff;        /* DeepSkyBlue */
+  color: #fff;                /* White */
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+  border-radius: 6px;
+}
 
-
-
+#convert:hover  {
+  transition: border 1s;
+  transition: background 2s;
+  border: solid 2px #00bfff;
+  background: #696969;
+}
