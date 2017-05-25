@@ -10,17 +10,9 @@ var Person = function(name, age)	{
 
 Person.prototype.canDrive = function()	{
 
-	if (this.age >= 16)	{
+	return this.age >= 16;	
 
-		return true;
-
-	}	else	{
-
-		return false;
-
-	}	
-
-}
+}	// end Person.prototype.canDrive()
 
 var robert = new Person('Robert', 16);
 
