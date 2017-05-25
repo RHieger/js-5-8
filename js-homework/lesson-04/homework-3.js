@@ -73,7 +73,64 @@ function isInArray(arr, num)	{
 
 }	// end isInArray()
 
+function returnOddItems(arr)	{
+
+	for (i = 0; i <= arr.length -1; i++)	{
+
+		if(i !== 0 && i % 2 !== 0)	{
+
+			console.log('Element ' + i + ':\t' + arr[i]);
+
+		}	// end if
+
+	}	// end for
+
+}	// end returnOddItems()
+
+function runningTotal(arr)	{
+
+	var sum = 0;
+
+	for (i = 0; i <= arr.length -1; i++)	{
+
+		if (i === 0)	{
+
+			sum = arr[i];
+
+			console.log('Index ' + i + ' = ' + sum);
+
+		}	else {
+
+			sum += parseInt(arr[i]);
+
+			console.log('Index ' + (i) + ': + '  + arr[i] + ' = ' + sum);
+
+		}	// end if-else
+
+	}	// end for
+
+}	// end runningTotal(arr)
+
+function isPalindrome(string)	{
+
+	var flag;		// Boolean for equality of first and last successive characters
+
+	for (i = 0; i < string.length; i++)	{
+
+		if (string[0] !== string[string.length - 1])	{
+
+			console.log('\'' + string + '\' is NOT a palindrome.\n');
+			break;
+
+		} // end if
+
+	}	// end for
+
+}	// end isPalindrome(string)
+
 // END Functions
+
+// Call Each Function:
 
 console.log('\nvar numberList =', numberList);
 console.log('\nFind the largest array element using getMaxElement(arr):')
@@ -91,3 +148,21 @@ console.log(answer, '\n');
 answer = isInArray(numberList, 55);
 
 console.log(answer, '\n');
+
+console.log('Return Odd Element Indexes of numberList Using returnOddItems(arr):\n');
+
+returnOddItems(numberList);
+
+console.log('\n');
+
+console.log('Give Running Total of Elements in numberList Using runningTotal(arr):\n');
+
+runningTotal(numberList);
+
+console.log('\n');
+
+var testString1 = 'Is this a palindrome';
+
+isPalindrome(testString1);
+
+
