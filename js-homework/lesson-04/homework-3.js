@@ -97,13 +97,13 @@ function runningTotal(arr)	{
 
 			sum = arr[i];
 
-			console.log('Index ' + i + ' = ' + sum);
+			console.log('Index ' + i + ':\t = ' + sum);
 
 		}	else {
 
 			sum += parseInt(arr[i]);
 
-			console.log('Index ' + (i) + ': + '  + arr[i] + ' = ' + sum);
+			console.log('Index ' + (i) + ':\t + '  + arr[i] + ' = ' + sum);
 
 		}	// end if-else
 
@@ -113,16 +113,21 @@ function runningTotal(arr)	{
 
 function isPalindrome(string)	{
 
-	var flag;		// Boolean for equality of first and last successive characters
+	for (var i = 0; i < string.length; i++)	{
 
-	for (i = 0; i < string.length; i++)	{
-
-		if (string[0] !== string[string.length - 1])	{
+		if (string[i] !== string[string.length - i -1])  {
 
 			console.log('\'' + string + '\' is NOT a palindrome.\n');
-			break;
 
-		} // end if
+			return false;
+
+		}	else {
+
+			console.log('\'' + string + '\' IS a palindrome.\n');
+
+			return true;
+
+		}	// end if-else
 
 	}	// end for
 
@@ -133,13 +138,14 @@ function isPalindrome(string)	{
 // Call Each Function:
 
 console.log('\nvar numberList =', numberList);
-console.log('\nFind the largest array element using getMaxElement(arr):')
+
+console.log('\nFind the Largest Array Element Using getMaxElement(arr):')
 
 var largestElement = getMaxElement(numberList);
 
-console.log('\nThe Largest Element in array numberList is:', largestElement, '\n');
+console.log('\nThe Largest Element in Array numberList is:', largestElement, '\n');
 
-console.log('Check to see if element is present in array using isInArray(arr, value):\n')
+console.log('Check to See if Element is Present in Array Using isInArray(arr, value):\n')
 
 var answer = isInArray(numberList, 7);
 
@@ -161,8 +167,14 @@ runningTotal(numberList);
 
 console.log('\n');
 
-var testString1 = 'Is this a palindrome';
+console.log('Testing testString1 to See if it is a Palindrome Using isPalindrome(string):\n');
+
+var testString1 = 'is this a palindrome';
 
 isPalindrome(testString1);
 
+console.log('Testing testString2 to See if it is a Palindrome Using isPalindrome(string):\n');
 
+var testString2 = 'able was i ere i saw elba';
+
+isPalindrome(testString2);
