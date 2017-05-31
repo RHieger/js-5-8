@@ -73,10 +73,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Volumes/LaCie/js-5-8"
+		"/Volumes/LaCie/js-5-8",
+		"/Volumes/LaCie/js-5-8/in-class-04"
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/in-class-04/fibonacci-seq.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/assignment-02/random-address.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/assignment-03/currency-converter/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/assignment-03/currency-converter/js/app.js",
