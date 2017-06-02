@@ -6,10 +6,33 @@
     are multiples of both three and ﬁve print “FizzBuzz"
 */
 
-for (var i = 1; var <= 100; i++)	{
+console.log('\n')
+
+for (var i = 1; i <= 100; i++)	{
 
 	// FINISH THIS AS PART OF HOMEWORK.
+	// MY SOLUTION:
 
-	console.log()
+	switch (true)	{
+
+		case (i % 3 === 0):
+			console.log('\tFizz');
+			break;
+
+		case (i % 5 === 0):
+			console.log('\tBuzz');
+			break;
+
+		case (i % 3 === 0 && i % 5 === 0):
+			console.log('\tFizzBuzz');
+			break;
+
+		default:
+			console.log('\t' + i);
+
+	}	// end switch(i)
+
 
 }	// end for
+
+console.log('\n');
