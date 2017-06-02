@@ -1,3 +1,19 @@
 #name {
   color: blue;
 }
+
+#new-thing-button  {
+	display: inline-table;
+	margin-left: 25px;
+	width: 150px;
+	height: 35px;
+	padding: 5px;
+	border-radius: 12px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: small-caps;
+	background: rgba(0, 0, 255, 0.65);
+	color: #ffffff;
+	cursor: pointer;
+}

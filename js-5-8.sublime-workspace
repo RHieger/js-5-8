@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getElementById"
+			],
+			[
 				"submit",
 				"submitForm"
 			],
 			[
 				"sub",
 				"submitForm"
-			],
-			[
-				"get",
-				"getSum2"
 			]
 		]
 	},
@@ -74,16 +74,25 @@
 	"expanded_folders":
 	[
 		"/Volumes/LaCie/js-5-8",
-		"/Volumes/LaCie/js-5-8/in-class-04"
+		"/Volumes/LaCie/js-5-8/in-class-01",
+		"/Volumes/LaCie/js-5-8/in-class-04",
+		"/Volumes/LaCie/js-5-8/in-class-06",
+		"/Volumes/LaCie/js-5-8/in-class-06/html-example/js",
+		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise"
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/main.js",
+		"/Volumes/LaCie/js-5-8/in-class-06/html-example/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-06/html-example/js/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-06/fizzbuzz.js",
+		"/Volumes/LaCie/js-5-8/in-class-02/fizzbuzz.js",
 		"/Volumes/LaCie/js-5-8/in-class-04/fibonacci-seq.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/assignment-02/random-address.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/assignment-03/currency-converter/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/assignment-03/currency-converter/js/app.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/assignment-03/currency-converter/css/style.css",
-		"/Volumes/LaCie/js-5-8/in-class-02/fizzbuzz.js",
 		"/Volumes/LaCie/js-5-8/in-class-02/loops.js",
 		"/Volumes/LaCie/js-5-8/in-class-02/inclass.js",
 		"/Volumes/LaCie/js-5-8/in-class-01/hello.js",

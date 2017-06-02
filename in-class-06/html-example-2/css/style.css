@@ -1,0 +1,45 @@
+/* Styles for Self-Assigned html-example-2: Variation
+   of In-Class Code-Along
+*/
+
+body {
+	width: 95%;
+	margin: 12px auto 0 auto;
+}
+
+h1, h2, h3,
+h4, h5, h6	{
+	font-family: 'Montserate', 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+p	{
+	font-family: 'Tinos', 'Times', serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+#myButton {
+	display: block;
+	width: 150px;
+	height: 35px;
+	border-radius: 12px;
+	font-family: 'Montserate', 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	font-variant: small-caps;
+	background: rgba(153, 158, 255, 0.85);
+	color: #ffffff;
+	cursor: pointer;
+	margin-bottom: 35px;
+}
+
+#myButton:hover {
+	background: #ffffff;
+	color: rgb(153, 158, 255);
+}
