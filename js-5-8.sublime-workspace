@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
 				"get",
 				"getElementById"
 			],
@@ -76,17 +84,22 @@
 		"/Volumes/LaCie/js-5-8",
 		"/Volumes/LaCie/js-5-8/in-class-01",
 		"/Volumes/LaCie/js-5-8/in-class-04",
-		"/Volumes/LaCie/js-5-8/in-class-06",
-		"/Volumes/LaCie/js-5-8/in-class-06/html-example/js",
-		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise"
+		"/Volumes/LaCie/js-5-8/in-class-06"
 	],
 	"file_history":
 	[
-		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-06/fizzbuzz.js",
 		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/main.js",
+		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/old-main.js",
+		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-06/js-dom-temp/style.css",
+		"/Volumes/LaCie/js-5-8/in-class-06/js-dom-temp/main.js",
+		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/style.css",
+		"/Volumes/LaCie/js-5-8/in-class-06/html-example-2/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-06/html-example-2/js/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-06/html-example-2/css/style.css",
 		"/Volumes/LaCie/js-5-8/in-class-06/html-example/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-06/html-example/js/app.js",
-		"/Volumes/LaCie/js-5-8/in-class-06/fizzbuzz.js",
 		"/Volumes/LaCie/js-5-8/in-class-02/fizzbuzz.js",
 		"/Volumes/LaCie/js-5-8/in-class-04/fibonacci-seq.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/assignment-02/random-address.js",
@@ -109,7 +122,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -123,6 +136,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"console.log"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -147,7 +161,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -188,7 +202,7 @@
 	"project": "js-5-8.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
