@@ -1,0 +1,121 @@
+/* FizzBuzz App Styling */
+
+body {
+	width: 98%;
+	margin: 12px auto 0 auto;
+	background-color: #e6e6e6;	/* 10% Gray */
+}
+
+main {
+	width 98%;
+	background-color: rgba(128, 0, 128, 0.65);	/* 65% Purple */
+	padding-top: 25px;
+}
+
+#fizzBuzzEntry	{
+	width: 85%;
+	height: 225px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Heading Style */
+
+h1, h2, h3,
+h4, h5, h6	{
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;		/* Bold */
+}
+
+h1	{
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 12px;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 32px;
+	margin-bottom: 12px;
+}
+
+/* Styling for Form */
+
+#fizzBuzzEntry h1 {
+	color: #ffffff;		/* White */
+}
+
+label	{
+	display: block;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 600;	/* Semi Bold */
+	font-style: italic;
+	font-variant: small-caps;
+	font-size: 18px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	color: #ffffff;
+}
+
+input[type="text"]	{
+	margin-top: 18px;
+	border: inset 5px #dedede;
+	padding: 10px;
+	font-family: 'Allegreya';
+	font-size: 18px;
+	color: #d9d9d9;	/* 15% Black */
+	width: 125px;
+	text-align: right;
+}
+
+#goFizzBuzz	{
+	display: inline-table;
+	vertical-align: middle;
+	margin-left: 25px;
+	width: 125px;
+	height: 50px;
+	border: outset 3px #dedede;
+	border-radius: 12px;
+	padding: 10px;
+	background-color: #f08ff0;	/* 25% Violet */
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size: 20px;
+	font-weight: 700;	/* Bold */
+	font-variant: small-caps;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#goFizzBuzz:hover {
+	background-color: #bfbfbf;	/* 25 Gray */
+	color: #f08ff0;				/* Violet Shade */
+}
+
+#goFizzBuzz:active {
+	border: ridge 4px #dedede;
+	color: #ee82ee;
+}
+
+/* Styling for FizzBuzz Run Area */
+
+#fizzBuzzRun	{
+	display: block;
+	height: 66%;
+	padding: 15px 15px 15px 100px;
+	border: 3px dotted #808080;	/* Gray */
+	background-color: #ffffff;
+}
+
+#fizzBuzzRun p {
+	font-family: 'Alegreya', 'Times', serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+#runHeading {
+	visibility: hidden;
+	color: #ee82ee;
+}
