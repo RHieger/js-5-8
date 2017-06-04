@@ -10,8 +10,6 @@ window.onload = function()	{
 
 	var btn = document.getElementById('goFizzBuzz');
 
-	console.log(btn);	// For debugging only.
-
 	// 3: Attach onclick event to btn.
 
 	btn.onclick = function(event)	{
@@ -20,35 +18,31 @@ window.onload = function()	{
 
 		event.preventDefault();
 
-		// 5: Reveal runHeading.
-
-		var runHeading = document.getElementById('runHeading');
-
-		console.log(runHeading);	// For debugging only.
-
-		runHeading.style.visibility = 'visible';
-
-		// 6: Get user input contained within input #number.
+		// 5: Get user input contained within input #number.
 
 		var userInput = parseInt(document.getElementById('number').value);
 
-		console.log(userInput);	// For debugging only.
+		// 6: Get #runHeading.
+
+		var runHeading = document.getElementById('runHeading');
+
+		// 7: Append number of FizzBuzz cycles to #runHeading
+
+		runHeading.innerHTML += ' ' + userInput + ' Times&hellip;';
+
+		// 8: Reveal runHeading.
+
+		runHeading.style.visibility = 'visible';
+
+		// 9: Clear input #number after button click.
 
 		document.getElementById('number').value = '';
 
-		// 7: Get p element #runNumbers.
+		// 10: Get p element #runNumbers.
 
 		var parFizzBuzz = document.getElementById('runNumbers');
 
-		console.log(parFizzBuzz);	// For debugging only.
-
-		// 8: Create text node for p #runNumbers content.
-
-		var fizzBuzzContent = document.createTextNode('');
-
-		parFizzBuzz.appendChild(fizzBuzzContent);
-
-		// 9: Loop through and display appropriate content within parFizzBuzz.
+		// 11: Loop through and display appropriate content within parFizzBuzz.
 
 		for (var i = 0; i < userInput; i++)	{
 
@@ -73,6 +67,8 @@ window.onload = function()	{
 			}	// end switch(true)
 
 		}	// end for
+
+		// 12: Append 'Done.' Message to parFizzBuzz.
 
 		parFizzBuzz.innerHTML += 'Done.';
 
