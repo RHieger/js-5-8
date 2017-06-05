@@ -90,9 +90,6 @@
 	"expanded_folders":
 	[
 		"/Volumes/LaCie/js-5-8",
-		"/Volumes/LaCie/js-5-8/in-class-01",
-		"/Volumes/LaCie/js-5-8/in-class-04",
-		"/Volumes/LaCie/js-5-8/in-class-06",
 		"/Volumes/LaCie/js-5-8/js-homework"
 	],
 	"file_history":
@@ -134,7 +131,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
