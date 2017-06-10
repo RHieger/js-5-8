@@ -78,11 +78,13 @@ $(document).ready(function()  {
 						'</span> <a class="complete" href="#">Complete</a> ' +
 						'<a class="delete" href="#">Delete</a>');
 
-		// console.log(newItem);
-
 		// Append newItem to list.
 
 		$favList.append(newItem);
+
+		// Clear input field after button click.
+
+		$('#new-thing').val('');
 
 	}	// end addItem()
 
