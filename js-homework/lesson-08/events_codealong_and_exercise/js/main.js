@@ -18,27 +18,29 @@ $(document).ready(function()  {
 
 	// Event for Task Completion:
 
-	$favList.on('click', 'li a.complete', Complete);
+	$favList.on('click', 'li a.complete', completeItem);
 
-	// Complete() Function:
+	// completeItem() Handler:
 
-	function Complete()	{
+	function completeItem()	{
 
 		var $span = $(this).parent().find('span');
 
 		$span.css('text-decoration', 'line-through');
 		$span.css('color', '#ff0000');
 
-	}	// end Complete()
+	}	// end completeItem()
 
 	// Event for List Item Deletion:
 
-	$favList.on('click', 'li a.delete', Delete);
+	$favList.on('click', 'li a.delete', deleteItem);
 
-	function Delete() {
+	// deleteItem() Handler:
+
+	function deleteItem() {
 
 		$(this).parent().remove();
 
-	}	// end Delete()
+	}	// end deleteItem()
 
 });
