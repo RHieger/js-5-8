@@ -1,3 +1,20 @@
+html {
+	width: 98%;
+	background-color: rgba(255, 245, 238, 0.75);	/* SeaShell 75% */
+}
+
+h1, h2, h3,
+h4, h5, h6	{
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 600;	/* SemiBold */
+}
+
+h1 {
+	font-size: 36px;
+	background: rgba(192, 192, 192, 0.35);	/* Silver 35% */
+	padding: 6px 12px;
+}
+
 #name {
   color: blue;
 }
