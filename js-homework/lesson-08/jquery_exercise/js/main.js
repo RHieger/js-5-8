@@ -54,9 +54,21 @@ $(document).ready(function()  {
 
 		var $itemForDeletion = $(this).parent();
 
+		// Strip $itemForDeletion of a.complete link.
+
+		$($itemForDeletion.find('a.complete')).remove();
+
 		$itemForDeletion.remove();
 
-		console.log($itemForDeletion);
+		// console.log($itemForDeletion);
+
+		// Reveal "Completed Tasks" Heading.
+
+		$('#tasksDone').css('display', 'block');
+
+		// Append Deleted Item to "Completed Tasks" List.
+
+		$('#taskItems').append($itemForDeletion);
 
 	}	// end completeItem()
 
