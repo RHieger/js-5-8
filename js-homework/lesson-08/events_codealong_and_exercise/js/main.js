@@ -10,3 +10,10 @@ Make the delete and complete links do the following when clicked:
 * Any newly added items must have the same delete and complete functionality as the previous ones
 */
 
+$(document).ready(function()  {
+
+	// Select and save to variable <ul> list #fav-list:
+
+	$favList = $('#fav-list');
+
+});
