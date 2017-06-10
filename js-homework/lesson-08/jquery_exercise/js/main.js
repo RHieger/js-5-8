@@ -159,4 +159,8 @@ $(document).ready(function()  {
 
 	}	// end addItem()
 
+	// Fold in encapsulation of listApp {}.
+
+	var listApp = {};
+
 });		// end $(document).ready()
