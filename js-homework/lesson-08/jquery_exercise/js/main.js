@@ -52,13 +52,17 @@ $(document).ready(function()  {
 		// $span.css('text-decoration', 'line-through');
 		// $span.css('color', '#ff0000');
 
-		var $itemForDeletion = $(this).parent();
+		var itemForDeletion = $(this).parent();
 
 		// Strip $itemForDeletion of a.complete link.
 
-		$($itemForDeletion.find('a.complete')).remove();
+		$(itemForDeletion.find('a.complete')).remove();
 
-		$itemForDeletion.remove();
+		itemForDeletion.remove();
+
+		// Add link to restore deleted item to list.
+
+		itemForDeletion.append(' <a class="restore" href="#">Restore Item to List</a>');
 
 		// console.log($itemForDeletion);
 
@@ -68,21 +72,59 @@ $(document).ready(function()  {
 
 		// Append Deleted Item to "Completed Tasks" List.
 
-		$('#taskItems').append($itemForDeletion);
+		$('#taskItems').append(itemForDeletion);
 
 	}	// end completeItem()
 
+	/***********************************************************
+	 *                                                         *
+	 * NOTE: As the List Item Deletion Handler corresponded    *
+	 * with a List Item "Delete" link that has since been	   *
+	 * removed from the document content, the function         *
+	 * commented out below is no longer needed.                *
+	 *                                                         *
+	 ***********************************************************
+	*/
+
 	// Event for List Item Deletion:
 
-	$favList.on('click', 'li a.delete', deleteItem);
+	// $favList.on('click', 'li a.delete', deleteItem);
 
-	// deleteItem() Handler:
+	// // deleteItem() Handler:
 
-	function deleteItem() {
+	// function deleteItem() {
 
-		$(this).parent().remove();
+	// 	$(this).parent().remove();
 
-	}	// end deleteItem()
+	// }	// end deleteItem()
+
+	// Event for Handling List Item Restore:
+
+	var $restoreList = $('#taskItems');
+
+	$restoreList.on('click', 'li a.restore', restoreItem);
+
+	// restoreItem() Function():
+
+	function restoreItem()	{
+
+		var itemForRestore = $(this).parent();
+
+		itemForRestore.remove();
+
+		// Remove a.restore from list item.
+
+		itemForRestore.find('a.restore').remove();
+
+		// Add a.complete back to list item.
+
+		itemForRestore.append(' <a class="complete" href="#">Complete</a>');
+
+		// Add itemForRestore back to $favList.
+
+		$favList.append(itemForRestore);
+
+	}	// end restoreItem()
 
 	// Event for Adding List Item:
 
@@ -105,8 +147,7 @@ $(document).ready(function()  {
 		// Assign value of a new list item to a variable.
 
 		var newItem = $('<li class="fav-thing"><span>' + userInput +
-						'</span> <a class="complete" href="#">Complete</a> ' +
-						'<a class="delete" href="#">Delete</a>');
+						'</span> <a class="complete" href="#">Complete</a>');
 
 		// Append newItem to list.
 
