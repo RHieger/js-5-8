@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"list",
+				"listItems"
+			],
+			[
 				"par",
 				"parFizzBuzz"
 			],
@@ -90,14 +94,31 @@
 	"expanded_folders":
 	[
 		"/Volumes/LaCie/js-5-8",
-		"/Volumes/LaCie/js-5-8/js-homework"
+		"/Volumes/LaCie/js-5-8/in-class-04",
+		"/Volumes/LaCie/js-5-8/in-class-06",
+		"/Volumes/LaCie/js-5-8/in-class-08",
+		"/Volumes/LaCie/js-5-8/in-class-08/delegated-events",
+		"/Volumes/LaCie/js-5-8/in-class-08/events_codealong_and_exercise"
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/in-class-06/fizzbuzz.js",
+		"/Volumes/LaCie/js-5-8/in-class-08/events_codealong_and_exercise/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-08/events_codealong_and_exercise/main.js",
+		"/Volumes/LaCie/js-5-8/in-class-08/delegated-events/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-08/delegated-events/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-07/jquery_exercise/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-07/jquery_exercise/main.js",
+		"/Volumes/LaCie/js-5-8/in-class-07/jquery_exercise/style.css",
+		"/Volumes/LaCie/js-5-8/in-class-07/exercise-02/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-07/exercise-02/js/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-07/exercise-01/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-07/exercise-01/js/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-07/jquery-1/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-07/jquery-1/js/app.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-07/fizz-buzz-app/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-07/fizz-buzz-app/css/fizz-buzz.css",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-07/fizz-buzz-app/js/fizz-buzz.js",
-		"/Volumes/LaCie/js-5-8/in-class-06/fizzbuzz.js",
 		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/main.js",
 		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/old-main.js",
 		"/Volumes/LaCie/js-5-8/in-class-06/js_dom_exercise/index.html",
@@ -145,6 +166,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n\t",
 			"console.log"
 		],
 		"highlight": true,
