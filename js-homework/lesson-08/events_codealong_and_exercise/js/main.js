@@ -16,4 +16,19 @@ $(document).ready(function()  {
 
 	$favList = $('#fav-list');
 
+	// Event for Task Completion:
+
+	$favList.on('click', 'li a.complete', Complete);
+
+	// Complete() Function:
+
+	function Complete()	{
+
+		var $span = $(this).parent().find('span');
+
+		$span.css('text-decoration', 'line-through');
+		$span.css('color', '#ff0000');
+
+	}	// end Complete()
+
 });
