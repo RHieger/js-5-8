@@ -8,7 +8,7 @@ the following rules:
   that sets the text-decoration to strikeout).
 - Each new task added by the user needs to also have the "complete task" link akt the end.
 - Bonus: when user completes task, remove the task from the current list and add it to a
-  completed list below. Do not show this list unless the there are completed items.
+  completed list below. Do not show this list unless there are completed items.
 - Bonus 2: add the ability to restore items from the completed list to the first list.
 
 */
@@ -35,10 +35,28 @@ $(document).ready(function()  {
 
 	function completeItem()	{
 
-		var $span = $(this).parent().find('span');
+		/*******************************************************
+		 *
+		 * NOTE: The original code, commented out below, has   *
+		 * been refactored to remove completed items and move  *
+		 * them to a new "Completed Tasks" list. This would    *
+		 * therefore obviate the need for the deleteItem()     *
+		 * function, i.e., this function takes care of that    *
+		 * deletion at the same time as the item is moved.     *
+		 *													   *
+		 *******************************************************
+		*/
 
-		$span.css('text-decoration', 'line-through');
-		$span.css('color', '#ff0000');
+		// var $span = $(this).parent().find('span');
+
+		// $span.css('text-decoration', 'line-through');
+		// $span.css('color', '#ff0000');
+
+		var $itemForDeletion = $(this).parent();
+
+		$itemForDeletion.remove();
+
+		console.log($itemForDeletion);
 
 	}	// end completeItem()
 
