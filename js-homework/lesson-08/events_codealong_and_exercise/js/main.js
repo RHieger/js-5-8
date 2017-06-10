@@ -31,4 +31,14 @@ $(document).ready(function()  {
 
 	}	// end Complete()
 
+	// Event for List Item Deletion:
+
+	$favList.on('click', 'li a.delete', Delete);
+
+	function Delete() {
+
+		$(this).parent().remove();
+
+	}	// end Delete()
+
 });
