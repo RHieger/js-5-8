@@ -1,6 +1,14 @@
 html {
 	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: rgba(255, 245, 238, 0.75);	/* SeaShell 75% */
+}
+
+body {
+	font-family: 'Alegreya', 'Times', serif;
+	font-size: 20px;
+	line-height: 26px;
 }
 
 h1, h2, h3,
@@ -12,7 +20,61 @@ h4, h5, h6	{
 h1 {
 	font-size: 36px;
 	background: rgba(192, 192, 192, 0.35);	/* Silver 35% */
+	color: #2f4f4f;							/* DarkSlateGray */
 	padding: 6px 12px;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: 700;	/* Bold */
+	font-variant: small-caps;
+	color: #2f4f4f;						/* DarkSlateGray */
+	margin-left: 25px;
+}
+
+a {
+	color: #2f4f4f;			/* DarkSlateGray */
+	font-weight: bold;
+}
+
+a:hover {
+	padding: 3px 0;
+	background: #2f4f4f;
+	color: #ffffff;
+}
+
+#new-thing {
+	margin-left: 25px;
+	border: 2px inset #c0c0c0;	/* Silver */
+	height: 35px;
+	font-family: 'Alegreya', 'Times', serif;
+	font-size: 20px;
+	color: #2f4f4f;
+	background-color: yellow;
+}
+
+#new-thing-button {
+	display: inline-table;
+	width: 150px;
+	height: 40px;
+	margin-left: 15px;
+	border: 1px solid #c0c0c0;
+	border-radius: 6px;
+	padding: 10px;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	font-variant: small-caps;
+	cursor: pointer;
+}
+
+#new-thing-button:hover {
+	color: #0000ff;			/* Blue */
+}
+
+#new-thing-button:active	{
+	font-size: 16px;
+	color: #ff0000;			/* Red */
 }
 
 #name {

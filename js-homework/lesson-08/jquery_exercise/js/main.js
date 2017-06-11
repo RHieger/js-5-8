@@ -36,7 +36,7 @@ $(document).ready(function()  {
 	function completeItem()	{
 
 		/*******************************************************
-		 *
+		 *                                                     *
 		 * NOTE: The original code, commented out below, has   *
 		 * been refactored to remove completed items and move  *
 		 * them to a new "Completed Tasks" list. This would    *
@@ -54,7 +54,7 @@ $(document).ready(function()  {
 
 		var itemForDeletion = $(this).parent();
 
-		// Strip $itemForDeletion of a.complete link.
+		// Strip itemForDeletion of a.complete link.
 
 		$(itemForDeletion.find('a.complete')).remove();
 
@@ -63,8 +63,6 @@ $(document).ready(function()  {
 		// Add link to restore deleted item to list.
 
 		itemForDeletion.append(' <a class="restore" href="#">Restore Item to List</a>');
-
-		// console.log($itemForDeletion);
 
 		// Reveal "Completed Tasks" Heading.
 
@@ -118,7 +116,7 @@ $(document).ready(function()  {
 
 		// Add a.complete back to list item.
 
-		itemForRestore.append(' <a class="complete" href="#">Complete</a>');
+		itemForRestore.append('&emsp;<a class="complete" href="#">Complete</a>');
 
 		// Add itemForRestore back to $favList.
 
@@ -142,12 +140,10 @@ $(document).ready(function()  {
 
 		var userInput = $('#new-thing').val();
 
-		// console.log(userInput);
-
 		// Assign value of a new list item to a variable.
 
 		var newItem = $('<li class="fav-thing"><span>' + userInput +
-						'</span> <a class="complete" href="#">Complete</a>');
+						'</span>&emsp;<a class="complete" href="#">Complete</a>');
 
 		// Append newItem to list.
 
@@ -158,9 +154,5 @@ $(document).ready(function()  {
 		$('#new-thing').val('');
 
 	}	// end addItem()
-
-	// Fold in encapsulation of listApp {}.
-
-	var listApp = {};
 
 });		// end $(document).ready()
