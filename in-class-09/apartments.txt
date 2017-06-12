@@ -1,0 +1,14 @@
+{
+	"apartment": {
+
+		"address1": "568 North Bronson Avenue",
+		"address2": "Apartment #4C",
+		"city": "Los Angeles",
+		"rooms": [
+			"bedroom",
+			"kitchen",
+			"bathrooom"
+		]
+
+	}
+}
