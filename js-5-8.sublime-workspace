@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"parse",
+				"parsedJSON"
+			],
+			[
+				"pars",
+				"parsedJSON"
+			],
+			[
 				"background",
 				"background-color"
 			],
@@ -118,8 +126,10 @@
 	"expanded_folders":
 	[
 		"/Volumes/LaCie/js-5-8",
-		"/Volumes/LaCie/js-5-8/in-class-07/exercise-01",
-		"/Volumes/LaCie/js-5-8/in-class-07/exercise-02",
+		"/Volumes/LaCie/js-5-8/in-class-09",
+		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab",
+		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab-jquery",
+		"/Volumes/LaCie/js-5-8/in-class-09/vanilla-ajax",
 		"/Volumes/LaCie/js-5-8/js-homework",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise",
@@ -128,6 +138,14 @@
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab-jquery/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-09/vanilla-ajax/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-09/vanilla-ajax/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-09/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-09/json.js",
+		"/Volumes/LaCie/js-5-8/in-class-09/apartments.txt",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/css/style.css",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/js/main.js",
@@ -199,6 +217,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"{\n\t\"apartment\": {\n\n\t\t\"address1\": \"568 North Bronson Avenue\",\n\t\t\"address2\": \"Apartment #4C\",\n\t\t\"city\": \"Los Angeles\",\n\t\t\"rooms\": [\n\t\t\t\"bedroom\",\n\t\t\t\"kitchen\",\n\t\t\t\"bathrooom\"\n\t\t]\n\n\t},\n}",
 			"console",
 			"*\n",
 			"\n\t",
