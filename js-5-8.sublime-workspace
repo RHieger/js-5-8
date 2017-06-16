@@ -96,11 +96,15 @@
 	"command_palette":
 	{
 		"height": 367.0,
-		"last_filter": "",
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -126,10 +130,6 @@
 	"expanded_folders":
 	[
 		"/Volumes/LaCie/js-5-8",
-		"/Volumes/LaCie/js-5-8/in-class-09",
-		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab",
-		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab-jquery",
-		"/Volumes/LaCie/js-5-8/in-class-09/vanilla-ajax",
 		"/Volumes/LaCie/js-5-8/js-homework",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise",
@@ -138,17 +138,18 @@
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/css/style.css",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/index.html",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/js/main.js",
 		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab/app.js",
 		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab-jquery/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-09/in-class-lab-jquery/app.js",
 		"/Volumes/LaCie/js-5-8/in-class-09/vanilla-ajax/app.js",
 		"/Volumes/LaCie/js-5-8/in-class-09/vanilla-ajax/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-09/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-09/json.js",
 		"/Volumes/LaCie/js-5-8/in-class-09/apartments.txt",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/css/style.css",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/index.html",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/js/main.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/events_codealong_and_exercise/style.css",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/events_codealong_and_exercise/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/events_codealong_and_exercise/js/main.js",
