@@ -96,7 +96,7 @@
 	"command_palette":
 	{
 		"height": 367.0,
-		"last_filter": "Package Control: ",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -130,6 +130,10 @@
 	"expanded_folders":
 	[
 		"/Volumes/LaCie/js-5-8",
+		"/Volumes/LaCie/js-5-8/in-class-10",
+		"/Volumes/LaCie/js-5-8/in-class-10/hof",
+		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun",
+		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/js",
 		"/Volumes/LaCie/js-5-8/js-homework",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise",
@@ -138,6 +142,10 @@
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/js/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/js/video.js",
+		"/Volumes/LaCie/js-5-8/in-class-10/hof/app.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/css/style.css",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/js/main.js",
