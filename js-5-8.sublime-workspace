@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"col-md",
+				"col-md-offset-1"
+			],
+			[
+				"col",
+				"col-md-offset-1"
+			],
+			[
 				"parse",
 				"parsedJSON"
 			],
@@ -130,21 +138,29 @@
 	"expanded_folders":
 	[
 		"/Volumes/LaCie/js-5-8",
+		"/Volumes/LaCie/js-5-8/css",
 		"/Volumes/LaCie/js-5-8/in-class-10",
-		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun",
-		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/js",
+		"/Volumes/LaCie/js-5-8/in-class-10/hof",
 		"/Volumes/LaCie/js-5-8/js-homework",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-08",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/css",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/js"
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/css",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js"
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js/risk-it.js",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/index.html",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/css/custom.css",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js/app.js",
+		"/Users/Bobby/Desktop/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-10/hof/app.js",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js/video.js",
+		"/Volumes/LaCie/js-5-8/index.html",
+		"/Volumes/LaCie/js-5-8/css/custom.css",
 		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/js/video.js",
 		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/js/app.js",
-		"/Volumes/LaCie/js-5-8/in-class-10/hof/app.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/css/style.css",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-08/jquery_exercise/js/main.js",
