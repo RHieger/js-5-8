@@ -6,8 +6,9 @@
 
 $(document).ready(function()  {
 
-    var loading = $('#loading-marquee');
-    loading.hide();
+    var successText = 'Getting currrent weather&hellip;';
+
+    var errorText = 'You must enter a latitude and longitude.';
 
     // Select button#get-weather and attach click
     // event handler.
@@ -17,6 +18,18 @@ $(document).ready(function()  {
         // Prevent #get-weather default behavior.
 
         event.preventDefault();
+
+        if ( $('#longitude').val() === '' || $('#latitude').val() === '' )  {
+
+            $('#alert').addClass('alert alert-danger');
+            $('#alert').html(errorText);
+
+        }   else {
+
+            $('#alert').addClass('alert alert-success');
+            $('#alert').html(successText);
+
+        }   // end-if-else
 
         $('#alert').show();
 
