@@ -14,11 +14,11 @@ $(document).ready(function()  {
 
     $('#get-weather').on('click', function(event)  {
 
-        loading.show();
-
         // Prevent #get-weather default behavior.
 
         event.preventDefault();
+
+        $('#alert').show();
 
         console.log('Work?');
 
@@ -57,6 +57,10 @@ $(document).ready(function()  {
             var currentWind = response.currently.windSpeed;
 
             $('#current-wind').html(currentWind);
+
+            // Hide alert after weather is displayed.
+
+            $('#alert').hide();
 
         });
 
