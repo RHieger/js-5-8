@@ -24,6 +24,14 @@ $(document).ready(function()  {
             $('#alert').addClass('alert alert-danger');
             $('#alert').html(errorText);
 
+            window.setTimeout(function()    {
+
+                $('#alert').fadeOut(1500);
+
+                $('#alert').removeClass('alert alert-danger');
+
+            }, 2000);
+
         }   else {
 
             $('#alert').addClass('alert alert-success');
@@ -73,7 +81,7 @@ $(document).ready(function()  {
 
             // Hide alert after weather is displayed.
 
-            $('#alert').hide();
+            $('#alert').fadeOut(1500);
 
         });
 
