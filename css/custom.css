@@ -22,3 +22,30 @@ h4, h5, h6  {
     font-weight: 600;
 }
 
+.panel {
+    border: 1.5px dotted #808080;
+}
+
+.panel-primary  {
+    background: rgb(255, 255, 255);   /* White */
+}
+
+.panel-priamry > .panel-heading {
+    border-bottom: 2px dotted #c0c0c0;
+    background-color: rgb(182, 225, 252);   /* LightSkyBlue 85% */
+}
+
+
+.well {
+    background-color: rgb(9, 139, 220); /* LightSkyBlue 45% */
+}
+
+.well h1,
+.well h2,
+.well h3    {
+    color: #ffffff; /* White */
+}
+
+.well small {
+    color: rgb(255, 255, 0)    /* Yellow 50% */
+}
