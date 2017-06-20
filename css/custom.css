@@ -16,10 +16,19 @@ body    {
     line-height: 24px;
 }
 
+iframe  {
+    margin-left: 35px;
+}
+
 h1, h2, h3,
 h4, h5, h6  {
     font-family: 'Montserrat', 'Helvetica', sans-serif;
     font-weight: 600;
+}
+
+.btn-primary{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .panel {
@@ -54,4 +63,9 @@ p {
 
 .well small {
     color: rgb(255, 255, 0)    /* Yellow 50% */
+}
+
+figcaption {
+    margin-top: 6px;
+    margin-bottom: 12px;
 }

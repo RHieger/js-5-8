@@ -1,0 +1,23 @@
+<h1 id="lesson-01-homework">Lesson-01 Homework</h1>
+<h2 id="assignments-2-amp-3">Assignments 2 &amp; 3</h2>
+<p>Given the 2 following directory structures, what would be the list of terminal commands in order to create it:</p>
+<h4 id="first-one">First One</h4>
+<p><code>~/Sites/my-awesome-directory/nested-directory</code><br><code>~/Sites/my-awesome-directory/nested-directory/hello.txt</code><br><code>~/Sites/terminals-are-fun.txt</code></p>
+<h4 id="_answer-_"><em>Answer:</em></h4>
+<p><code>$ mkdir ~/Sites</code><br><code>$ cd ~/Sites</code><br><code>$ touch terminals-are-fun.txt</code><br><code>$ mkdir my-awesome-directory</code><br><code>$ cd my-awesome-directory</code><br><code>$ mkdir nested-directory</code><br><code>$ cd nested-directory</code><br><code>$ touch terminals-are-fun.txt</code></p>
+<h4 id="_alternate-answer-and-caviat-_"><em>Alternate Answer (and caviat)</em></h4>
+<p><code>$ mkdir -p ~/Sites/my-awesome-directory/nested-directory</code><br><code>$ cd ~/Sites</code><br><code>$ touch terminals-are-fun.txt</code><br><code>$ cd my-awesome-directory/nested-directory</code><br><code>$ touch hello.txt</code></p>
+<h4 id="_caviat-_"><em>Caviat:</em></h4>
+<p>The alternate answer has the virtue of being 5, rather than 8 lines
+of terminal commands. But it&apos;s important to be aware of a couple
+of things:</p>
+<ol>
+<li>The <code>-p</code> command switch does create intermediate directories making it possible to create the entire directory tree in one line. However, as the BSD Unix man page states, &ldquo;&hellip;with this option specified, no error will be reported if a directory given as an operand already exists&hellip;&rdquo;
+<br /><br /></li>
+<li>The <code>mkdir</code> command must be executed either from another volume than that containing the symbolic link <code>~</code> to /Users/<User Name>, or from the root directory <code>(/)</code> of that volume, otherwise the path would be incorrect. Note that the same holds true for the first answer above, as well.</li>
+</ol>
+<h4 id="second-one">Second One</h4>
+<p><code>~/Sites/1/2/3/4/5/6/7/8/9/hello/its/me/adele.jpg</code><br><code>~/Sites/i/was/wondering/if/after/all/these/years/you would/like/to/meet.jpg</code>  </p>
+<h4 id="_answer-_"><em>Answer:</em></h4>
+<p><code>$ mkdir -p ~/Sites/1/2/3/4/5/6/7/8/9/hello/its/me</code><br><code>$ cd ~/Sites/1/2/3/4/5/6/7/8/9/hello/its/me</code><br><code>$ [cp | mv] path/to/adele.jpg .</code><br><code>$ cd ~/Sites</code><br><code>$ mkdir -p &#39;i/was/wondering/if/after/all/these/years/you would/like/to&#39;</code><br><code>$ cd &#39;i/was/wondering/if/after/all/these/years/you would/like/to&#39;</code><br><code>$ [cp | mv] path/to/meet.jpg .</code></p>
+<h6 id="see-_caveat_-above-">See <em>Caveat</em> above.</h6>
