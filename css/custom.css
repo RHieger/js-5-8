@@ -26,6 +26,12 @@ h4, h5, h6  {
     border: 1.5px dotted #808080;
 }
 
+p {
+    font-family: 'Alegreya', 'Times', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .panel-primary  {
     background: rgb(255, 255, 255);   /* White */
 }
