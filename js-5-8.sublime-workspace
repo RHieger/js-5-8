@@ -79,14 +79,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2791,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -147,9 +139,7 @@
 	[
 		"/Volumes/LaCie/js-5-8",
 		"/Volumes/LaCie/js-5-8/css",
-		"/Volumes/LaCie/js-5-8/in-class-10",
-		"/Volumes/LaCie/js-5-8/in-class-10/hof",
-		"/Volumes/LaCie/js-5-8/js-homework",
+		"/Volumes/LaCie/js-5-8/in-class-11/class12",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-01",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-10",
@@ -160,6 +150,11 @@
 	"file_history":
 	[
 		"/Volumes/LaCie/js-5-8/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-11/class12/styles.css",
+		"/Volumes/LaCie/js-5-8/in-class-11/class12/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-11/class12/app.js",
+		"/Volumes/LaCie/js-5-8/in-class-11/class12/callback.html",
+		"/Volumes/LaCie/js-5-8/in-class-11/testing/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js/app.js",
@@ -274,39 +269,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2791,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

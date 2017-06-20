@@ -84,3 +84,26 @@ All in class work: https://github.com/bobbytables/js58
 * `setTimeout` - https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers
 * `jQuery.hide()` - http://api.jquery.com/hide/
 * `Math.random()` - https://www.w3schools.com/jsref/jsref_random.asp
+
+## Class 12 (June 19th)
+
+* Slides: https://www.dropbox.com/s/dc79senpxybthnn/JS-class12.pdf?dl=0
+* Homework DUE Sat 24th
+
+1. Add a button to the page that when clicked, uses the
+browsers current location for searching 500px and loads the photos.
+
+2. Add an input box for a user to type in a latitude and longitude
+in the format of "42.0,42.0" and use that to search 500px and display
+the photos
+
+3. When the photos are being loaded (they have not loaded yet),
+display a "Loading..." somewhere on the page that disappears
+when the photos have loaded.
+
+Also!
+
+* Send in a paragraph or so of what your final project is going to be
+via Slack but also via email.
+
+---
