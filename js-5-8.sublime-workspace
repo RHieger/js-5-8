@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"assignment",
+				"assignment-2-and-3.html\t(generateHTML.js)"
+			],
+			[
 				"col-md",
 				"col-md-offset-1"
 			],
@@ -139,23 +143,25 @@
 	[
 		"/Volumes/LaCie/js-5-8",
 		"/Volumes/LaCie/js-5-8/css",
-		"/Volumes/LaCie/js-5-8/in-class-11/class12",
+		"/Volumes/LaCie/js-5-8/js-homework",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-01",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-02",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-10",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/css",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js"
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/images",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/js",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-02"
 	],
 	"file_history":
 	[
 		"/Volumes/LaCie/js-5-8/index.html",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/index.html",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/index.html",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/js/generateHTML.js",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/js/closeTab.js",
+		"/Volumes/LaCie/js-5-8/css/custom.css",
 		"/Volumes/LaCie/js-5-8/in-class-11/class12/styles.css",
 		"/Volumes/LaCie/js-5-8/in-class-11/class12/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-11/class12/app.js",
 		"/Volumes/LaCie/js-5-8/in-class-11/class12/callback.html",
 		"/Volumes/LaCie/js-5-8/in-class-11/testing/index.html",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js/app.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js/risk-it.js",
@@ -163,7 +169,6 @@
 		"/Users/Bobby/Desktop/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-10/hof/app.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-10/fun-project/js/video.js",
-		"/Volumes/LaCie/js-5-8/css/custom.css",
 		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/js/video.js",
 		"/Volumes/LaCie/js-5-8/in-class-10/in-class-fun/js/app.js",
