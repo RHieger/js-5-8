@@ -2,6 +2,28 @@ $(document).ready(function() {
 
   // DOM is now ready
 
+    _500px.init({
+
+      sdk_key: '8e4916b354f68466843a3d3e1aaf2ee2df6e8002'
+
+    });   // end _500px.init()
+
+    $('#login').click(function()  {
+
+      _500px.login();
+
+    });   // end $('#login').click()
+
+    _500px.on('authorization_obtained', function()  {
+
+      console.log('Authorized successfully!');
+
+      $('#login').hide();
+
+    });   // end _500px.on()
+
+  /*
+
   _500px.init({
 
     sdk_key: '8e4916b354f68466843a3d3e1aaf2ee2df6e8002'
@@ -72,5 +94,7 @@ $(document).ready(function() {
     });     // end navigator.geolocation.getCurrentPostion()
 
   });   // end _500px.on('authorization_obtained')
+
+  */
 
 });     // end $(document).ready()
