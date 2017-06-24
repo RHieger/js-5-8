@@ -22,6 +22,31 @@ $(document).ready(function() {
 
     });   // end _500px.on()
 
+    // Attach Click Event Handler to button#getPhotos.
+
+    $('#getPhotos').click(function()  {
+
+      navigator.geolocation.getCurrentPosition(function(pos)  {
+
+        console.log(pos);
+
+        var lat = pos.coords.latitude;
+
+        console.log('Current Latitude:\t' + lat);
+
+        var long = pos.coords.longitude;
+
+        console.log('Current Longitude:\t' + long);
+
+
+
+      }); // end navigator.geolocation.getCurrentPosition()
+
+    });   // end $('#getPhotos').click()
+
+
+    // navigator.geolocation.getCurrentPosition(success, error, searchOptions);
+
   /*
 
   _500px.init({
