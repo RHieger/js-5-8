@@ -82,7 +82,7 @@ $(document).ready(function() {
 
           } // end for
 
-          $('#getPhotos').hide();
+          $('#getPhotos').fadeOut(1000);
 
           $('#loadAlert').fadeOut(750);
 
