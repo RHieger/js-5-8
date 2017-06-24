@@ -80,6 +80,8 @@ $(document).ready(function() {
 
           } // end for
 
+          $('#getPhotos').hide()
+
         }); // end _500px.api()
 
       }); // end navigator.geolocation.getCurrentPosition()

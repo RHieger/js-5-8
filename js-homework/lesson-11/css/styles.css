@@ -34,3 +34,23 @@ h1 span {
 #getPhotos {
   display: none;
 }
+
+#loadAlert {
+  display: none;
+  margin-top: 2em;
+  width: 150px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6px;
+  border: solid 2px #888888;
+  border-radius: 6px;
+  box-shadow: 3px 6px 6px rgb(204, 204, 255);  /* Shadow Color Blue 90% (10%) */
+  background-color: rgb(77, 77, 255);             /* Blue 65% (35%) */
+}
+
+#loadAlert p {
+  color: #ffffff;
+  font-weight: bold;
+}
+
