@@ -28,6 +28,8 @@ $(document).ready(function() {
 
     $('#getPhotos').click(function()  {
 
+      $('#loadAlert').fadeIn(1500);
+
       navigator.geolocation.getCurrentPosition(function(pos)  {
 
         console.log(pos);
@@ -80,7 +82,9 @@ $(document).ready(function() {
 
           } // end for
 
-          $('#getPhotos').hide()
+          $('#getPhotos').hide();
+
+          $('#loadAlert').fadeOut(750);
 
         }); // end _500px.api()
 
