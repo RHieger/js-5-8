@@ -22,6 +22,12 @@ $(document).ready(function() {
 
       $('#getPhotos').show();
 
+      $('#getCoords').show();
+
+      $('#userInput').css('display', 'inline-block');
+
+      $('#userInput').show();
+
     });   // end _500px.on()
 
     // Attach Click Event Handler to button#getPhotos.

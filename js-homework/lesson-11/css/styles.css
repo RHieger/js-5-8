@@ -44,7 +44,9 @@ h1 span {
 }
 
 .btn-primary {
+  display: inline-table;
   margin-top: 2em;
+  margin-right: 15px;
   font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
@@ -52,8 +54,17 @@ h1 span {
   display: none;
 }
 
-#chooseCoords {
+#getCoords {
   display: none;
+  margin-top: 2em;
+}
+
+#userInput {
+  display: none;
+  height: 35px;
+  width: 225px;
+  padding: 0 6px;
+  vertical-align: bottom;
 }
 
 #loadAlert {
@@ -66,7 +77,7 @@ h1 span {
   padding-top: 6px;
   border: solid 2px #888888;
   border-radius: 6px;
-  box-shadow: 3px 6px 6px rgb(204, 204, 255);  /* Shadow Color Blue 90% (10%) */
+  box-shadow: 3px 6px 6px rgb(204, 204, 255);     /* Shadow Color Blue 90% (10%) */
   background-color: rgb(77, 77, 255);             /* Blue 65% (35%) */
 }
 
