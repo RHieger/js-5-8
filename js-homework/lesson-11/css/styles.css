@@ -27,6 +27,10 @@ h1 span {
   display: none;
 }
 
-.btn-default {
+.btn-primary {
   margin-top: 4em;
+}
+
+#getPhotos {
+  display: none;
 }
