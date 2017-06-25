@@ -176,6 +176,7 @@ $(document).ready(function() {
 
         $('#getPhotos').fadeIn(1500);
         $('#getCoords').fadeIn(1500);
+        $('#userInput').val('');
         $('#userInput').fadeIn(1500);
 
         $('#searchAgain').fadeOut(750);
