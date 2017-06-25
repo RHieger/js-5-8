@@ -16,10 +16,11 @@ body {
 h1, h2, h3,
 h4, h5, h6  {
   font-family: 'Montserrat', 'Helvetica', sans-serif;
+  font-weight: 600;
 }
 
-h1 {
-  font-weight: 600;
+header h1 {
+  color: rgb(77, 77, 255);   /* Blue 65% */
 }
 
 h1 span {

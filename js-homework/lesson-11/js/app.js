@@ -1,32 +1,32 @@
 $(document).ready(function() {
 
-  // DOM is now ready
+    // DOM is now ready
 
     _500px.init({
 
-      sdk_key: '8e4916b354f68466843a3d3e1aaf2ee2df6e8002'
+        sdk_key: '8e4916b354f68466843a3d3e1aaf2ee2df6e8002'
 
     });   // end _500px.init()
 
     $('#login').click(function()  {
 
-      _500px.login();
+        _500px.login();
 
     });   // end $('#login').click()
 
     _500px.on('authorization_obtained', function()  {
 
-      console.log('Authorized successfully!');
+        console.log('Authorized successfully!');
 
-      $('#login').hide();
+        $('#login').hide();
 
-      $('#getPhotos').show();
+        $('#getPhotos').show();
 
-      $('#getCoords').show();
+        $('#getCoords').show();
 
-      $('#userInput').css('display', 'inline-block');
+        $('#userInput').css('display', 'inline-block');
 
-      $('#userInput').show();
+        $('#userInput').show();
 
     });   // end _500px.on()
 
@@ -50,11 +50,11 @@ $(document).ready(function() {
 
         var SearchOptions = {
 
-          geo:  lat + ',' + long + ',' + '25mi',
-          only: 'landscapes',
-          image_size: 3,
-          rpp: 28,
-          sort: 'highest_rating'
+          geo:              lat + ',' + long + ',' + '25mi',
+          only:             'landscapes',
+          image_size:       3,
+          rpp:              28,
+          sort:             'highest_rating'
 
         };  // end SearchOptions
 
@@ -90,6 +90,10 @@ $(document).ready(function() {
 
           $('#getPhotos').fadeOut(1000);
 
+          $('#getCoords').fadeOut(900);
+
+          $('#userInput').fadeOut(800);
+
           $('#loadAlert').fadeOut(750);
 
         }); // end _500px.api()
@@ -97,5 +101,27 @@ $(document).ready(function() {
       }); // end navigator.geolocation.getCurrentPosition()
 
     });   // end $('#getPhotos').click()
+
+    // Attach event to button#getCoords:
+
+    $('#getCoords').click(function()    {
+
+        var coords = $('#userInput').val();
+
+        console.log('User-Chosen Coordinates: ' + coords);
+
+        $('#loadAlert').fadeIn(1500);
+
+        var SearchOptions = {
+
+            geo:            coords + ',' + '25mi',
+            only:           'landscapes',
+            image_size:     3,
+            rpp:            28,
+            sort:           'highest_rating'
+
+        };  // end SearchOptions
+
+    });  // end $('#getCoords')
 
 });     // end $(document).ready()
