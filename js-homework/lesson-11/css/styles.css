@@ -86,3 +86,9 @@ h1 span {
   color: #ffffff;
   font-weight: bold;
 }
+
+#searchAgain {
+  display: none;
+  margin-top: 0;
+  margin-bottom: 10px;
+}

@@ -96,6 +96,8 @@ $(document).ready(function() {
 
           $('#loadAlert').fadeOut(750);
 
+          $('#searchAgain').fadeIn(1000);
+
         }); // end _500px.api()
 
       }); // end navigator.geolocation.getCurrentPosition()
@@ -160,8 +162,22 @@ $(document).ready(function() {
 
             $('#loadAlert').fadeOut(750);
 
+            $('#searchAgain').fadeIn(1000);
+
         });
 
     });  // end $('#getCoords')
+
+    $('#searchAgain').click(function()  {
+
+        console.log($('#searchAgain'));
+
+        $('.image-results-view').fadeOut(1500);
+
+        $('#getPhotos').fadeIn(750);
+        $('#getCoords').fadeIn(750);
+        $('#userInput').fadeIn(750);
+
+    });
 
 });     // end $(document).ready()
