@@ -172,11 +172,13 @@ $(document).ready(function() {
 
         console.log($('#searchAgain'));
 
-        $('.image-results-view').fadeOut(1500);
+        $('.image-results-view').fadeOut(750);
 
-        $('#getPhotos').fadeIn(750);
-        $('#getCoords').fadeIn(750);
-        $('#userInput').fadeIn(750);
+        $('#getPhotos').fadeIn(1500);
+        $('#getCoords').fadeIn(1500);
+        $('#userInput').fadeIn(1500);
+
+        $('#searchAgain').fadeOut(750);
 
     });
 
