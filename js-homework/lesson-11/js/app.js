@@ -84,7 +84,7 @@ $(document).ready(function() {
 
             // Reveal requested images:
 
-            $('.image-results-view').show();
+            $('.image-results-view').fadeIn(2000);
 
           } // end for
 
@@ -121,6 +121,46 @@ $(document).ready(function() {
             sort:           'highest_rating'
 
         };  // end SearchOptions
+
+        // Make the request:
+
+        _500px.api('/photos/search', SearchOptions, function(response) {
+
+            console.log(response);
+
+            var photos = response.data.photos;
+
+            console.log(photos);
+
+            for (var i = 0; i < photos.length; i ++)    {
+
+                // Create new image tag for each photo returned.
+                // The attr() method dynamically changes the url.
+
+                var newImage = $('<img />').attr('src', photos[i].image_url)
+                                           .addClass('image');
+
+                console.log(newImage);
+
+                // Append newImg to div.images:
+
+                $('.images').append(newImage);
+
+                // Reveal requested images:
+
+                $('.image-results-view').fadeIn(2000);
+
+            }   // end for
+
+            $('#getPhotos').fadeOut(1000);
+
+            $('#getCoords').fadeOut(900);
+
+            $('#userInput').fadeOut(800);
+
+            $('#loadAlert').fadeOut(750);
+
+        });
 
     });  // end $('#getCoords')
 

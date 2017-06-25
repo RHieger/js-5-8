@@ -1,50 +1,89 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <title>LocalLandscapes</title>
 
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- css -->
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-</head>
-<body>
+    <head>
 
-  <header class="container-fluid text-center sign-in-view">
-    <h1>Local<span>Landscapes</span></h1>
-  </header>
+        <meta charset="utf-8" />
 
-  <div class="container-fluid well">
-    <div class="row text-center">
-      <h2>Discover how beautiful your surroundings can be</h2>
-      <button id="login" class="btn btn-primary">
-        Login to 500px
-      </button>
-      <button id="getPhotos" class="btn btn-primary">
-        Get Local Photos
-      </button>
-      <button id="getCoords" class="btn btn-primary">
-        Choose Location
-      </button>
-      <input type="text" id="userInput" placeholder="Choose Coordinates, e.g. 42.0,42.0" />
-    </div>
-  </div>
+        <title>LocalLandscapes</title>
 
-  <div id="loadAlert">
+        <!-- bootstrap -->
 
-    <p class="text-center">Loading photos&hellip;</p>
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 
-  </div>
+        <!-- css -->
 
-  <div class="container-fluid text-center image-results-view">
-    <h3>Here are some landscape photos from 500px near you:</h3>
-    <div class="images"></div>
-  </div>
+        <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- js -->
-  <script src="js/500px.js"></script>
-  <script src="js/app.js"></script>
-</body>
+        <!-- jQuery -->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <header class="container-fluid text-center sign-in-view">
+
+            <h1>Local<span>Landscapes</span></h1>
+
+        </header>   <!-- END header -->
+
+        <div class="container-fluid well">
+
+            <div class="row text-center">
+
+                <h2 class="text-muted">
+                    Discover how beautiful your surroundings can be
+                </h2>
+
+                <button id="login" class="btn btn-primary">
+                    Login to 500px
+                </button>
+
+                <button id="getPhotos" class="btn btn-primary">
+                    Get Local Photos
+                </button>
+
+                <button id="getCoords" class="btn btn-primary">
+                    Choose Location
+                </button>
+
+                <input type="text" id="userInput"
+                 placeholder="Choose Coordinates, e.g. 42.0,42.0" />
+
+            </div>  <!-- END "row text-center" -->
+
+        </div>  <!-- END "container-fluid well" -->
+
+        <!-- Alert Message for Photo Load -->
+
+        <div id="loadAlert">
+
+            <p class="text-center">Loading photos&hellip;</p>
+
+        </div>
+
+        <div class="container-fluid text-center image-results-view">
+
+            <h3 class="text-muted">
+                Here are some landscape photos from 500px near you:
+            </h3>
+
+            <div class="images">
+                <!-- Dynamic Content Lives Here -->
+            </div>
+
+        </div>  <!-- END "container" -->
+
+        <!-- js -->
+
+        <script src="js/500px.js"></script>
+
+        <script src="js/app.js"></script>
+
+    </body>
+
 </html>

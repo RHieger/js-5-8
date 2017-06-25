@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"imag",
+				"image_size"
+			],
+			[
+				"inline",
+				"inline-grid"
+			],
+			[
+				"inl",
+				"inline-table"
+			],
+			[
 				"assignment",
 				"assignment-2-and-3.html\t(generateHTML.js)"
 			],
@@ -83,6 +95,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "js-homework/lesson-11/js/app.js",
+			"settings":
+			{
+				"buffer_size": 3030,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -150,8 +171,10 @@
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/css/styles.css",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/js/app.js",
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/callback.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/js/500px.js",
 		"/Volumes/LaCie/js-5-8/in-class-11/class12/index.html",
 		"/Volumes/LaCie/js-5-8/index.html",
@@ -276,8 +299,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js-homework/lesson-11/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2947,
+								2947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1491.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
