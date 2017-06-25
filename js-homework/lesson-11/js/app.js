@@ -164,7 +164,7 @@ $(document).ready(function() {
 
             $('#searchAgain').fadeIn(1000);
 
-        });
+        }); // end _500px.api()
 
     });  // end $('#getCoords')
 
@@ -181,6 +181,6 @@ $(document).ready(function() {
 
         $('#searchAgain').fadeOut(750);
 
-    });
+    }); // end $('#searchAgain').click()
 
 });     // end $(document).ready()
