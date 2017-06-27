@@ -52,7 +52,8 @@ $(document).ready(function()    {
 
             var item = listItem.val().value;
 
-            list.append('<li>' + item + ' <a href="#" class="remove">Remove</a></li>');
+            list.append('<li data-id="' + listItem.key +'">' + item +
+                ' <a href="#" class="remove">Remove</a></li>');
 
         }); // end snapshot.forEach()
 
@@ -60,7 +61,14 @@ $(document).ready(function()    {
 
     $('#list-items').on('click', 'li a', function() {
 
-        console.log('Remove was clicked');
+        // Retrieve the value of the 'data-id' attribute on the parent <li> element
+        // so it may be removed from Firebase.
+
+        var itemId = $(this).parent().data('id');
+
+        // Remove the list item from Firebase.
+
+        database.ref('/todo-items/' + itemId).remove();
 
     });
 
