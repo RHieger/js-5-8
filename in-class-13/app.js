@@ -19,4 +19,49 @@ firebase.initializeApp(config);
 // Get a reference to the database service
 var database = firebase.database();
 
-database.ref("/hello-world").set({ hello: "world" })
+$(document).ready(function()    {
+
+    $('#add-button').on('click', function() {
+
+        console.log($('#new-item').val());
+
+        var value = $('#new-item').val();
+
+        // Grab a reference to the 'todo-items' in firbase
+        // and then create a new item on which we set data.
+
+        var item = database.ref('/todo-items').push();
+
+        item.set( { value: value } );
+
+    });
+
+    // Grab a reference to the todo-items key and ...
+
+    database.ref('/todo-items').on('value', function(snapshot)  {
+
+        var list = $('#list-items');
+
+        list.empty();   // Make sure that previous items are not repeated.
+
+        console.log(snapshot.val());
+
+        snapshot.forEach(function(listItem) {
+
+            console.log(listItem.val().value);
+
+            var item = listItem.val().value;
+
+            list.append('<li>' + item + ' <a href="#" class="remove">Remove</a></li>');
+
+        }); // end snapshot.forEach()
+
+    }); // end database.ref()
+
+    $('#list-items').on('click', 'li a', function() {
+
+        console.log('Remove was clicked');
+
+    });
+
+});
