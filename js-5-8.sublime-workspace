@@ -155,13 +155,16 @@
 	[
 		"/Volumes/LaCie/js-5-8",
 		"/Volumes/LaCie/js-5-8/css",
-		"/Volumes/LaCie/js-5-8/in-class-13",
+		"/Volumes/LaCie/js-5-8/in-class-16",
+		"/Volumes/LaCie/js-5-8/in-class-16/js",
 		"/Volumes/LaCie/js-5-8/js-homework",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/css",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/js"
+		"/Volumes/LaCie/js-5-8/js-homework/lesson-11"
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/in-class-16/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-16/js/app.js",
+		"/Volumes/LaCie/js-5-8/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-13/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-13/app.js",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/index.html",
@@ -172,7 +175,6 @@
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/callback.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-11/js/500px.js",
 		"/Volumes/LaCie/js-5-8/in-class-11/class12/index.html",
-		"/Volumes/LaCie/js-5-8/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-02/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/index.html",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-01/js/generateHTML.js",
@@ -272,6 +274,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Pokmon",
 			"{\n\t\"apartment\": {\n\n\t\t\"address1\": \"568 North Bronson Avenue\",\n\t\t\"address2\": \"Apartment #4C\",\n\t\t\"city\": \"Los Angeles\",\n\t\t\"rooms\": [\n\t\t\t\"bedroom\",\n\t\t\t\"kitchen\",\n\t\t\t\"bathrooom\"\n\t\t]\n\n\t},\n}",
 			"console",
 			"*\n",
