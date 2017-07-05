@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"newElement"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
 				"cons",
 				"console.log"
 			],
@@ -160,14 +168,12 @@
 		"/Volumes/LaCie/js-5-8",
 		"/Volumes/LaCie/js-5-8/css",
 		"/Volumes/LaCie/js-5-8/firebase-practice",
-		"/Volumes/LaCie/js-5-8/firebase-practice/js",
-		"/Volumes/LaCie/js-5-8/in-class-16/js",
-		"/Volumes/LaCie/js-5-8/js-homework/lesson-11"
+		"/Volumes/LaCie/js-5-8/firebase-practice/js"
 	],
 	"file_history":
 	[
-		"/Volumes/LaCie/js-5-8/firebase-practice/index.html",
 		"/Volumes/LaCie/js-5-8/firebase-practice/js/app.js",
+		"/Volumes/LaCie/js-5-8/firebase-practice/index.html",
 		"/Volumes/LaCie/js-5-8/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-16/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-16/js/app.js",
