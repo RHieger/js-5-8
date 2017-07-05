@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"cons",
+				"console.log"
+			],
+			[
 				"imag",
 				"image_size"
 			],
@@ -155,15 +159,15 @@
 	[
 		"/Volumes/LaCie/js-5-8",
 		"/Volumes/LaCie/js-5-8/css",
-		"/Volumes/LaCie/js-5-8/in-class-11",
-		"/Volumes/LaCie/js-5-8/in-class-11/class12",
-		"/Volumes/LaCie/js-5-8/in-class-16",
+		"/Volumes/LaCie/js-5-8/firebase-practice",
+		"/Volumes/LaCie/js-5-8/firebase-practice/js",
 		"/Volumes/LaCie/js-5-8/in-class-16/js",
-		"/Volumes/LaCie/js-5-8/js-homework",
 		"/Volumes/LaCie/js-5-8/js-homework/lesson-11"
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/firebase-practice/index.html",
+		"/Volumes/LaCie/js-5-8/firebase-practice/js/app.js",
 		"/Volumes/LaCie/js-5-8/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-16/index.html",
 		"/Volumes/LaCie/js-5-8/in-class-16/js/app.js",
