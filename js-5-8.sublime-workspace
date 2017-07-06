@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"todo",
+				"todoListRef"
+			],
+			[
+				"todo-",
+				"todo-description"
+			],
+			[
 				"new",
 				"newElement"
 			],
@@ -166,12 +174,14 @@
 	"expanded_folders":
 	[
 		"/Volumes/LaCie/js-5-8",
-		"/Volumes/LaCie/js-5-8/css",
-		"/Volumes/LaCie/js-5-8/firebase-practice",
-		"/Volumes/LaCie/js-5-8/firebase-practice/js"
+		"/Volumes/LaCie/js-5-8/firebase-practice/js",
+		"/Volumes/LaCie/js-5-8/in-class-17",
+		"/Volumes/LaCie/js-5-8/in-class-17/js"
 	],
 	"file_history":
 	[
+		"/Volumes/LaCie/js-5-8/in-class-17/instructor-solution/index.html",
+		"/Volumes/LaCie/js-5-8/in-class-17/instructor-solution/js/app.js",
 		"/Volumes/LaCie/js-5-8/firebase-practice/js/app.js",
 		"/Volumes/LaCie/js-5-8/firebase-practice/index.html",
 		"/Volumes/LaCie/js-5-8/index.html",
@@ -286,6 +296,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"snapshot",
 			"Pokmon",
 			"{\n\t\"apartment\": {\n\n\t\t\"address1\": \"568 North Bronson Avenue\",\n\t\t\"address2\": \"Apartment #4C\",\n\t\t\"city\": \"Los Angeles\",\n\t\t\"rooms\": [\n\t\t\t\"bedroom\",\n\t\t\t\"kitchen\",\n\t\t\t\"bathrooom\"\n\t\t]\n\n\t},\n}",
 			"console",
