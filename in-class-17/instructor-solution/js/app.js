@@ -10,39 +10,77 @@
 
 $(document).ready(function()  {
 
-  console.log('Hello');
-
   var database = firebase.database();
 
   var todoListRef = database.ref('/toDoList');
 
-  $('#addItem').on('click', function(event) {
+  // Add functionality for adding items to firebase when a button is clicked.
 
-    event.preventDefault();
+  $('#add-item-btn').on('click', function(event)  {
 
-    var $itemName = $('#todo-name').val();
+    event.preventDefault()
 
-    var $description = $('#todo-description').val(); 
+    var itemDescription = $('#todo-description').val();
+    var itemName = $('#todo-name').val();
 
-    console.log('Values', $description, $itemName );
+    console.log('Button clicked!');
 
-    var newItem = todoListRef.push();
+    console.log("Values", itemDescription, itemName);
 
-    newItem.set( { name: $itemName, description: $description} );
+    // Write the values to the database.
+
+    var newItem = todoListRef.push(); // Create the variable for new item.
+
+    // Now let's write the new item.
+
+    newItem.set({ name: itemName, description: itemDescription });
 
   });
 
-  todoListRef.on('value', function(items)  {
+  //  load all of the items from firebase on page load and when it changes
+  todoListRef.on('value', function(items){
+    $('#todo-items').empty();
 
-    console.log(items.val());
+    items.forEach(function(item){
+      var id = item.key;
+      var name = item.val().name;
+      var description = item.val().description;
+      var completedAt = item.val().completedAt;
 
-    var items = items.val();
+      var completedText = "";
 
-    items.forEach(function(item)  {
+      if(completedAt !== undefined){
 
-      console.log(item.val.description);
+        var parsedDate = new Date(completedAt);
+
+        completedText = parsedDate.toDateString();
+
+      } // end if
+
+      var newElement = '<div class="panel panel-default">' +
+        '<div class="panel-heading">' + name + '</div>' +
+        '<div class="panel-body">' + description + '</div>' +
+        '<div class="panel-footer"><a href="#" data-item-id="' +  id +
+        '" class="mark-completed">Mark as Completed</a> ' +
+        completedText +'</div>' + '</div>';
+
+      $('#todo-items').append(newElement);
 
     });
+
+  });
+
+  // add click event handler to "mark as completed" links
+
+  $('#todo-items').on('click', 'a.mark-completed', function(event) {
+    
+    var id = $(this).data('item-id');
+
+    var itemRef = database.ref("/todo-list-items/" + id);
+
+    var now = new Date();
+
+    itemRef.update({ completedAt: now.getTime()})
 
   });
 
